@@ -85,6 +85,33 @@
     
     
     <entry>
+      <title>汉学-标点符号</title>
+      <link href="/2020/02/25/han-xue-biao-dian-fu-hao/"/>
+      <url>/2020/02/25/han-xue-biao-dian-fu-hao/</url>
+      
+        <content type="html"><![CDATA[<p>经过好几次的反思，杜绝把时间都浪费在记录无用的信息上；只记录那些关键点，方便查看。<br>含义：表示停顿、语气、词语性质，同样一句话，标点不一样意思也不一样。</p><p>基本使用规则我就不照搬了，详细最推荐看原文《现代汉学》下册第十节-标点符号。</p><pre><code>句号：陈述句结尾的停顿、舒缓语气。问号：末尾停顿和疑问语气。记住这是一句话，中间不能有句号。叹号：表感叹，同问号。逗号：句子内部停顿。顿号：并列次之间停顿。分号：分句之间的停顿。冒号：提示性话语后 或 总括语前的停顿。引号：引语或者 特别指出的词。括号：表示文中注释。（不需要朗读）破折号：表示解释说明语句。（需要朗读）省略号：省略的话。</code></pre><p>1.考虑句与句之间是否有联系，是不是描述同一件事情。<br>例2中，如果两条小分句意思没关联，就得用句号分割；有关联就得用分号。</p><pre><code>分句 + ， = 小句格式：好好学习，天天向上。小分句 +  分号 + 小分句  = 大句格式：好好学习，天天向上；好好学习，天天向上。</code></pre><p>2.标点符号也有优先级。<br>如果句子中的符号改变了，其他的符号也要跟着改变。<br>停顿的时间也依据这个。</p><pre><code>大句号 &gt; 小句号 &gt; 分号 &gt; 逗号 &gt; 顿号</code></pre><p>这是一个多读、多看、多写，慢慢积累的一个过程。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 汉学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 汉学 </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我</title>
       <link href="/2020/01/31/wo/"/>
       <url>/2020/01/31/wo/</url>
@@ -128,9 +155,9 @@
       
         <tags>
             
-            <tag> 英语 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
             
         </tags>
       
@@ -155,9 +182,9 @@
       
         <tags>
             
-            <tag> 英语 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
             
         </tags>
       
@@ -182,9 +209,9 @@
       
         <tags>
             
-            <tag> 英语 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
             
         </tags>
       
@@ -209,9 +236,9 @@
       
         <tags>
             
-            <tag> 英语 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
             
         </tags>
       
@@ -236,9 +263,9 @@
       
         <tags>
             
-            <tag> 英语 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
             
         </tags>
       
@@ -263,9 +290,9 @@
       
         <tags>
             
-            <tag> 英语 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
             
         </tags>
       
@@ -290,9 +317,9 @@
       
         <tags>
             
-            <tag> 英语 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
             
         </tags>
       
@@ -317,9 +344,9 @@
       
         <tags>
             
-            <tag> 英语 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
             
         </tags>
       
