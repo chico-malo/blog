@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>[技术]-怎么写好一篇总结</title>
+      <link href="/2020/04/11/ji-zhu-zen-me-xie-hao-yi-pian-zong-jie/"/>
+      <url>/2020/04/11/ji-zhu-zen-me-xie-hao-yi-pian-zong-jie/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如何写好一份总结"><a href="#如何写好一份总结" class="headerlink" title="如何写好一份总结"></a><strong>如何写好一份总结</strong></h1><p>技术再好，不会总结可不行。上周被老大夸周报写得好，值得其他同事学习。就这样，我想捋一捋总结，写写自己的心得。</p><p>首先得感谢以前的公司文化，把每个人都当“瑞士军刀”使，借此，我看了不少写报告、写总结、写邮件、做会议纪要、技术转管理…相关的资料。好的的总结会让你思考工作与自己的关系，凸显你的工作成果，顺便锻炼自己总结跟表达的能力。总结，尤为重要，希望下面的内容对你有帮助。</p><hr><p>要换位思考，你是老大，你最喜欢看到下面的人的总结是什么？</p><p>总结要体现，工作进度，上周工作反思，下周工作计划；员工的工作状态，质量、效率怎么样；遇到什么问题，是否需要帮助。</p><h2 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h2><p>1.每天记录当天工作。</p><p>2.言简意赅，挑重点 ，别废话，但是要说清楚。</p><h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><p>抛砖引玉，格式不固定</p><pre><code>1.完成的目标2.完成步骤，拆分目标3.完成结果，未完成写原因，接下来该怎么做4.经验，写简单的关键字，分享精神。5.困难或建议，大胆提出来。6.下周工作梳理，同上。</code></pre><h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><pre><code>// 本周工作1.a工作。 分解需求    1.静态页面开发。 100%    2.后端接口联调。100%    3.模块测试。100% 项目进度：全部完成。 未完成工作：xxxx 项目经验：    在做静态页面时，发现一个新插件… 遇到的困难：    在接口联调时，遇到一个问题…</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[xgs]《你，喜欢梵高吗》杂谈</title>
       <link href="/2020/03/22/xgs-ni-xi-huan-fan-gao-ma-za-tan/"/>
       <url>/2020/03/22/xgs-ni-xi-huan-fan-gao-ma-za-tan/</url>
@@ -209,9 +234,9 @@
       
         <tags>
             
-            <tag> 汉学 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 汉学 </tag>
             
         </tags>
       
@@ -263,9 +288,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -290,9 +315,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -317,9 +342,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -344,9 +369,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -371,9 +396,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -398,9 +423,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -425,9 +450,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -452,9 +477,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
