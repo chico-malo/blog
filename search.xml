@@ -4,6 +4,87 @@
   
     
     <entry>
+      <title>[技术]-HTTP请求</title>
+      <link href="/2020/06/12/ji-zhu-http-qing-qiu/"/>
+      <url>/2020/06/12/ji-zhu-http-qing-qiu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="HTTP请求规范"><a href="#HTTP请求规范" class="headerlink" title="HTTP请求规范"></a>HTTP请求规范</h1><p>$前端技术太多，不可能熟悉每一个知识点，熟知其核心尽快上手，需要用时再翻看api文档。$<br>$“敲出每一行完美的代码，默默的改变这个世界！”$</p><hr><h3 id="核心技术点"><a href="#核心技术点" class="headerlink" title="核心技术点"></a>核心技术点</h3><ul><li>http请求</li><li>了解跨域及解决</li><li>跨域方法</li><li>CORS、简单请求、预检请求、附带身份凭证请求</li><li>浏览器调试工具的使用</li></ul><p><a href="https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/#The_rendering_engine" target="_blank" rel="noopener">浏览器的工作原理</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> http </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[技术]-HTML规范</title>
+      <link href="/2020/06/12/ji-zhu-html-gui-fan/"/>
+      <url>/2020/06/12/ji-zhu-html-gui-fan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="html规范"><a href="#html规范" class="headerlink" title="html规范"></a>html规范</h1><p>$前端技术太多，不可能熟悉每一个知识点，熟知其核心尽快上手，需要用时再翻看api文档。$<br>$“敲出每一行完美的代码，默默的改变这个世界！”$</p><hr><p>html规范相对css没有那么多</p><h3 id="核心技术点"><a href="#核心技术点" class="headerlink" title="核心技术点"></a>核心技术点</h3><ul><li>一个完整的html文档结构</li><li>块级元素和内联元素、嵌套元素、表单元素</li><li>元数据meta</li><li>预加载</li><li>缓存Application Cache、localStorage、SessionStorage</li></ul><h3 id="规范"><a href="#规范" class="headerlink" title="规范"></a>规范</h3><ul><li>语义化，合理的使用标签，减少标签数量。</li><li>嵌套</li></ul><p><a href="http://wiki.jikexueyuan.com/project/web-development/html.html" target="_blank" rel="noopener">极客html规范</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[技术]-CSS规范</title>
+      <link href="/2020/06/11/ji-zhu-css-gui-fan/"/>
+      <url>/2020/06/11/ji-zhu-css-gui-fan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="CSS规范"><a href="#CSS规范" class="headerlink" title="CSS规范"></a>CSS规范</h1><p>$前端技术太多，不可能熟悉每一个知识点，熟知其核心尽快上手，需要用时再翻看api文档。$<br>$“敲出每一行完美的代码，默默的改变这个世界！”$</p><hr><p>现在前端技术鱼龙混杂，各种css技术层出不穷，花了不少时间整理规范跟技术，总结css开发解决方案。</p><h3 id="核心技术点"><a href="#核心技术点" class="headerlink" title="核心技术点"></a>核心技术点</h3><p>选择器、css值和单位、继承、盒模型、浏览器调试、定位、层叠、flexBox布局、媒体查询。</p><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ul><li>OOCSS 面向对象的方式编写css      ——  模块化</li><li>BEM改善命名css的思考方式            ——  高效率</li><li>ITCSS的倒三角css结构规范              ——  结构规范</li><li>styleLint树立书写规则</li><li>scss 预处理器</li></ul><h3 id="1-OOCSS。"><a href="#1-OOCSS。" class="headerlink" title="1.OOCSS。"></a>1.OOCSS。</h3><ol><li>重用，编写基本外观的组件（容器） .button｛…｝</li><li>扩展，添加其他特性（外观）.button -3d{…}</li><li>维护性，想更改容器还是内容、还是扩展？</li></ol><h3 id="2-BEM命名。"><a href="#2-BEM命名。" class="headerlink" title="2.BEM命名。"></a>2.BEM命名。</h3><p>永远都是 Block-Element_Modifier 的格式</p><p>可以使用驼峰命名</p><h3 id="3-ITCSS规范结构。"><a href="#3-ITCSS规范结构。" class="headerlink" title="3.ITCSS规范结构。"></a>3.ITCSS规范结构。</h3><p>样式层级不能超过三层。</p><ol><li><p>还原本质</p><pre><code>// css页面重置yarn add normalize.css</code></pre></li><li><p>设置（基本颜色、排版、动画）、工具（函数、mixins）</p></li><li><p>元素的固定样式、扩展样式</p></li></ol><h3 id="4-没有规矩，不成方圆"><a href="#4-没有规矩，不成方圆" class="headerlink" title="4.没有规矩，不成方圆"></a>4.没有规矩，不成方圆</h3><p>让SCSS规范保持一致</p><pre><code>// stylelint stylelnit-order规则顺序 代码风格 配置规则yarn add stylelint stylelint-order stylelint-config-standard stylelint-config-recess-order --dev// 配置 .stylelintrc.json{  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],  "rules": {    "at-rule-no-unknown": [true, {"ignoreAtRules" :[      "mixin", "extend", "content"    ]}]  }}// package.json"stylelint": "stylelint src/css/**/*.scss src/css/**/*.css"</code></pre><h4 id="举个栗子"><a href="#举个栗子" class="headerlink" title="举个栗子"></a>举个栗子</h4><pre class=" language-html"><code class="language-html">// html<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>search search_mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>   // form为基础样式  search-form为扩展容器样式  search-form_mode为扩展外观样式  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form search-form search-form_mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>    // search-form 为父级块    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>content search-form-content search-form-content_mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>      // 同form注释      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input content-input content-input_mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button content-button content-button_mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Search<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>       // 三层以上，还存在快，只取父级块content       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>content-media content-media_mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input media-input media-input_mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button media-button media-button_mode<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Search<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre><pre class=" language-scss"><code class="language-scss"><span class="token selector">.search </span><span class="token punctuation">{</span>    <span class="token selector">.search-form </span><span class="token punctuation">{</span>        <span class="token property">width</span><span class="token punctuation">:</span> xx<span class="token punctuation">;</span>        <span class="token property">height</span><span class="token punctuation">:</span> xx<span class="token punctuation">;</span>        <span class="token selector">.search-form-content </span><span class="token punctuation">{</span><span class="token punctuation">}</span>        <span class="token selector">.search-form-content_mode </span><span class="token punctuation">{</span><span class="token punctuation">}</span>    <span class="token punctuation">}</span>    <span class="token selector">.search-form_mode </span><span class="token punctuation">{</span>        <span class="token property">font-size</span><span class="token punctuation">:</span> xx<span class="token punctuation">;</span>        <span class="token property">background</span><span class="token punctuation">:</span> xx<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token selector">.search_mode </span><span class="token punctuation">{</span>    <span class="token number">...</span>外观样式<span class="token punctuation">}</span><span class="token selector">.search-form-content </span><span class="token punctuation">{</span>    <span class="token selector">.content-input: </span><span class="token punctuation">{</span><span class="token punctuation">}</span>    <span class="token selector">.content-input_mode: </span><span class="token punctuation">{</span><span class="token punctuation">}</span>    <span class="token selector">.content-button: </span><span class="token punctuation">{</span><span class="token punctuation">}</span>    <span class="token selector">.content-button_mode: </span><span class="token punctuation">{</span><span class="token punctuation">}</span>    <span class="token selector">.content-media: </span><span class="token punctuation">{</span>        <span class="token selector">.media-input: </span><span class="token punctuation">{</span><span class="token punctuation">}</span>        <span class="token selector">.media-input_mode: </span><span class="token punctuation">{</span><span class="token punctuation">}</span>        <span class="token selector">.media-button: </span><span class="token punctuation">{</span><span class="token punctuation">}</span>        <span class="token selector">.media-button_mode: </span><span class="token punctuation">{</span><span class="token punctuation">}</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token selector">.from </span><span class="token punctuation">{</span>    <span class="token number">...</span>from全局样式<span class="token punctuation">}</span><span class="token selector">.content </span><span class="token punctuation">{</span>    <span class="token number">...</span>content全局样式<span class="token punctuation">}</span><span class="token selector">.input </span><span class="token punctuation">{</span>    <span class="token number">...</span>content全局样式<span class="token punctuation">}</span><span class="token selector">.button </span><span class="token punctuation">{</span>    <span class="token number">...</span>button全局样式<span class="token punctuation">}</span></code></pre><h5 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h5><ul><li>尽量不使用!important</li><li><a href="https://www.zhangxinxu.com/wordpress/2010/01/css-float%E6%B5%AE%E5%8A%A8%E7%9A%84%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E3%80%81%E8%AF%A6%E8%A7%A3%E5%8F%8A%E6%8B%93%E5%B1%95%E4%BA%8C/" target="_blank" rel="noopener">尽量不使用float</a></li><li>尽量不要使用*这样的全局选择器</li><li>尽量在样式表中添加注释</li><li>在样式中避免使用#id</li><li>设置z-index层级不要超过10</li><li>声明每条一行</li><li>scss层叠不超过3层</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[技术]-怎么写好一篇总结</title>
       <link href="/2020/04/11/ji-zhu-zen-me-xie-hao-yi-pian-zong-jie/"/>
       <url>/2020/04/11/ji-zhu-zen-me-xie-hao-yi-pian-zong-jie/</url>

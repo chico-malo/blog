@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chico-malo.github.io/"/>
-  <updated>2020-04-11T15:00:52.328Z</updated>
+  <updated>2020-06-12T02:08:04.911Z</updated>
   <id>https://chico-malo.github.io/</id>
   
   <author>
@@ -15,6 +15,93 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[技术]-HTTP请求</title>
+    <link href="https://chico-malo.github.io/2020/06/12/ji-zhu-http-qing-qiu/"/>
+    <id>https://chico-malo.github.io/2020/06/12/ji-zhu-http-qing-qiu/</id>
+    <published>2020-06-12T02:03:21.000Z</published>
+    <updated>2020-06-12T02:08:04.911Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;HTTP请求规范&quot;&gt;&lt;a href=&quot;#HTTP请求规范&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://chico-malo.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="技术" scheme="https://chico-malo.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="http" scheme="https://chico-malo.github.io/tags/http/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[技术]-HTML规范</title>
+    <link href="https://chico-malo.github.io/2020/06/12/ji-zhu-html-gui-fan/"/>
+    <id>https://chico-malo.github.io/2020/06/12/ji-zhu-html-gui-fan/</id>
+    <published>2020-06-12T01:57:49.000Z</published>
+    <updated>2020-06-12T02:08:24.997Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;html规范&quot;&gt;&lt;a href=&quot;#html规范&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://chico-malo.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="技术" scheme="https://chico-malo.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="html" scheme="https://chico-malo.github.io/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[技术]-CSS规范</title>
+    <link href="https://chico-malo.github.io/2020/06/11/ji-zhu-css-gui-fan/"/>
+    <id>https://chico-malo.github.io/2020/06/11/ji-zhu-css-gui-fan/</id>
+    <published>2020-06-11T13:36:06.000Z</published>
+    <updated>2020-06-12T02:08:24.994Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;CSS规范&quot;&gt;&lt;a href=&quot;#CSS规范&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://chico-malo.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="技术" scheme="https://chico-malo.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="css" scheme="https://chico-malo.github.io/tags/css/"/>
+    
+  </entry>
   
   <entry>
     <title>[技术]-怎么写好一篇总结</title>
@@ -509,64 +596,6 @@
       <category term="英语" scheme="https://chico-malo.github.io/tags/%E8%8B%B1%E8%AF%AD/"/>
     
       <category term="学习" scheme="https://chico-malo.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英语语法讲解第一课句子成分-主语</title>
-    <link href="https://chico-malo.github.io/2019/11/23/ying-yu-yu-fa-jiang-jie-di-yi-ke-ju-zi-cheng-fen-zhu-yu/"/>
-    <id>https://chico-malo.github.io/2019/11/23/ying-yu-yu-fa-jiang-jie-di-yi-ke-ju-zi-cheng-fen-zhu-yu/</id>
-    <published>2019-11-23T03:59:36.000Z</published>
-    <updated>2020-01-31T04:25:40.683Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;句子成分与基本句型&quot;&gt;&lt;a href=&quot;#句子成分与基本句型&quot; class=&quot;headerlink&quot; title=&quot;句子成分与基本句型&quot;&gt;&lt;/a&gt;&lt;strong&gt;句子成分与基本句型&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;前言，本文章搬自知乎 [岑金源]: &lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="英语" scheme="https://chico-malo.github.io/categories/%E8%8B%B1%E8%AF%AD/"/>
-    
-    
-      <category term="英语" scheme="https://chico-malo.github.io/tags/%E8%8B%B1%E8%AF%AD/"/>
-    
-      <category term="学习" scheme="https://chico-malo.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>扬帆，启航</title>
-    <link href="https://chico-malo.github.io/2019/11/22/yang-fan-qi-hang/"/>
-    <id>https://chico-malo.github.io/2019/11/22/yang-fan-qi-hang/</id>
-    <published>2019-11-22T15:37:37.000Z</published>
-    <updated>2020-03-13T14:55:03.784Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;这可是我花了一两天的时间，搭建好的博客鸭鸭鸭。其实写日记笔记已经有 有道云笔记，写电影书籍感想之类的有 豆瓣，写音乐心情有
-        
-      
-    
-    </summary>
-    
-    
-      <category term="我的奋斗" scheme="https://chico-malo.github.io/categories/%E6%88%91%E7%9A%84%E5%A5%8B%E6%96%97/"/>
-    
-    
-      <category term="随笔" scheme="https://chico-malo.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="我的奋斗" scheme="https://chico-malo.github.io/tags/%E6%88%91%E7%9A%84%E5%A5%8B%E6%96%97/"/>
     
   </entry>
   
