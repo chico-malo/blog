@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>[技术]-js命名规范</title>
+      <link href="/2020/06/12/ji-zhu-js-ming-ming-gui-fan/"/>
+      <url>/2020/06/12/ji-zhu-js-ming-ming-gui-fan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="js命名规范"><a href="#js命名规范" class="headerlink" title="js命名规范"></a>js命名规范</h1><p><code>前端技术太多，不可能熟悉每一个知识点，熟知其核心尽快上手，需要用时再翻看api文档。</code><br><code>“敲出每一行完美的代码，默默的改变这个世界！”</code></p><hr><p>规范大部分取自于<a href="https://www.jianshu.com/p/75591d47312a" target="_blank" rel="noopener">简书-小母鸡叽叽叽</a></p><hr><h2 id="一、变量"><a href="#一、变量" class="headerlink" title="一、变量"></a>一、变量</h2><p>命名方法:  小驼峰式命名法<br>命名规范：前缀为形容词 （函数前缀为动词, 以此来区分函数和变量）</p><pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// 好的命名方式</span><span class="token keyword">let</span> maxCount <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span><span class="token keyword">let</span> tableTitle <span class="token operator">=</span> <span class="token string">'啦啦啦'</span><span class="token punctuation">;</span></code></pre><hr><h2 id="二、常量"><a href="#二、常量" class="headerlink" title="二、常量"></a>二、常量</h2><p>命名方法：名词全部大写<br>命名规范：使用大写字母和下划线来组合命名，下划线用来分割单词。</p><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> MAX_COUNT <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span><span class="token keyword">const</span> URL <span class="token operator">=</span> <span class="token string">'//www.huifenqi.com'</span><span class="token punctuation">;</span></code></pre><hr><h2 id="三、函数-amp-方法"><a href="#三、函数-amp-方法" class="headerlink" title="三、函数 &amp; 方法"></a>三、函数 &amp; 方法</h2><p>命名方法： 小驼峰式命名法<br>命名规范： 前缀应该为动词<br>命名建议：常用动词约定</p><pre><code>动词    含义can    判断是否可执行某个动作has    判断是否含义某个值is    判断是否为某个值get    获取某个值set    设置某个值load    加载某些数据// 是否可阅读function canRead() {}// 获取名称function getName() {}</code></pre><hr><h2 id="四、类-amp-构造函数"><a href="#四、类-amp-构造函数" class="headerlink" title="四、类 &amp; 构造函数"></a>四、类 &amp; 构造函数</h2><p>命名方法：大写驼峰式命名法，首字母大写。<br>命名规范：前缀为名称。</p><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">Persion</span> <span class="token punctuation">{</span>  <span class="token function">constructor</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span> <span class="token punctuation">{</span>   <span class="token operator">...</span>  <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">let</span> person <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">'啦啦啦'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><hr><h2 id="五、类的成员"><a href="#五、类的成员" class="headerlink" title="五、类的成员"></a>五、类的成员</h2><p>类的成员包括：</p><p>公共属性和方法： 跟变量和函数命名一样。<br>私有属性和方法：前缀为下划线_, 后面跟公共属性和方法一样的命名方式。</p><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>  <span class="token comment" spellcheck="true">// 私有属性 </span>  _name<span class="token punctuation">:</span> string<span class="token punctuation">;</span>  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>  <span class="token comment" spellcheck="true">// 公共方法</span>  <span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>_name<span class="token punctuation">;</span>  <span class="token punctuation">}</span>  <span class="token comment" spellcheck="true">// 公共方法</span>  <span class="token function">setName</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token keyword">this</span><span class="token punctuation">.</span>_name <span class="token operator">=</span> name<span class="token punctuation">;</span>  <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><hr><h2 id="六、注释规范"><a href="#六、注释规范" class="headerlink" title="六、注释规范"></a>六、注释规范</h2><pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// 单行注释</span><span class="token comment" spellcheck="true">// 函数方法注释 —— webStorm快捷键</span><span class="token comment" spellcheck="true">/* + 回车/** * 函数说明 * @关键字 **/</span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> javaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[技术]-HTTP请求</title>
       <link href="/2020/06/12/ji-zhu-http-qing-qiu/"/>
       <url>/2020/06/12/ji-zhu-http-qing-qiu/</url>
@@ -315,9 +342,9 @@
       
         <tags>
             
-            <tag> 汉学 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 汉学 </tag>
             
         </tags>
       
@@ -369,9 +396,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -396,9 +423,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -423,9 +450,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -450,9 +477,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -477,9 +504,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -504,9 +531,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -531,9 +558,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -558,9 +585,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 英语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
